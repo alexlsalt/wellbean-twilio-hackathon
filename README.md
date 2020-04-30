@@ -73,6 +73,8 @@ wellbean will give you a ready-made starting point for generating your own stay-
 
 3. Edit the .env file to include the necessary environment variables - your Twilio account ID, Twilio auth token, and the phone numbers to add into the app.
 
+**Remember:** To run the app locally and receive Whatsapp alerts, you'll need to authorize the Whatsapp sandbox to send alerts to your Whatsapp number. To authorize testing, head to your [Whatsapp Sandbox](https://www.twilio.com/console/sms/whatsapp/sandbox) for instructions on how to set up your testing sandbox.
+
 4. Once your set up is complete, start the app by running 
 
 `node app`
