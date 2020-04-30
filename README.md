@@ -1,6 +1,6 @@
 # Wellbean App x Twilio Hackathon 
 
-Created and developed by Alex Morton
+###Created and developed by [Alex Morton](https://alexlsalt.github.io/)  
 
 Welcome! wellbean is my submission for the April 2020 Twilio hackathon. It's an app that generates automatic Whatsapp reminders for users to stay in touch with loved ones. Enjoy!
 
