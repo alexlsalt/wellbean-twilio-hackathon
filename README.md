@@ -81,7 +81,7 @@ wellbean will give you a ready-made starting point for generating your own stay-
 
 6. Once you've submitted **three** contacts, wait about 20 seconds, and you will start receiving your simulated Whatsapp reminders. (Your reminders will also be logged into your terminal while the program is running.)
 
-7. **Important:** To close out of the app and end the message queue and sending, you must end the node process within your terminal (**Ctrl** + **C**)
+7. **Important:** To close out of the app and end the message queue and sending, you must end the node process within your terminal by pressing **Ctrl** + **C**
 
 
 ### Licenses
