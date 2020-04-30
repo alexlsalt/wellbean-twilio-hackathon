@@ -1,3 +1,5 @@
+!(public/assets/img/wellbean_favicon.png)
+
 # Wellbean App x Twilio Hackathon 
 
 ### Created and developed by [Alex Morton](https://alexlsalt.github.io/)  
