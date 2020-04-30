@@ -28,6 +28,7 @@ Below is the timetable for when users would receive Twilio messages via Whatsapp
 
 
 ![Adding contacts and reminder frequencies](public/assets/img/wellbean_contacts.png)
+
 ![Receiving automated suggestions via Whatsapp](public/assets/img/wellbean_whatsapp.png)
 
 
