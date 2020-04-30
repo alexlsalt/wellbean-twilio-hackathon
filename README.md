@@ -14,10 +14,6 @@ Run locally, the app is not set up to run on full time requirements. In other wo
 
 Below is the timetable for when users would receive Twilio messages via Whatsapp based on their contact frequency settings: 
 
-**Daily** -- one message every 20 seconds
-**Twice a Week** -- one message every 40 seconds
-**
-
 | Frequency chosen  | Actual time elapsed between message sends  |
 |---|---|
 |  Daily | one message every 20 seconds  |
@@ -26,3 +22,20 @@ Below is the timetable for when users would receive Twilio messages via Whatsapp
 | Every Two Weeks  | one message every 80 seconds  |
 | Monthly | one message every 100 seconds  |
 
+## Features
+
+
+## How to use it
+
+
+## Set up
+
+### Requirements
+
+### Twilio account settings
+
+### Local development
+
+### Licenses
+
+### Disclaimier
