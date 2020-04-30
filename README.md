@@ -2,13 +2,13 @@
 
 Welcome! wellbean is my submission for the April 2020 Twilio hackathon. It's an app that generates automatic Whatsapp reminders for users to stay in touch with loved ones. Enjoy!
 
-##About
+## About
 
 During this period of self-isolation, I realized it's a great opportunity to stay in touch more frequently with friends and loved ones. I thought it would be a great idea to create an app that allowed me to input certain indivuduals and receive automated reminders for when to contact them, based on my own preferences.
 
 I found that just a simple message reminder would help so much in keeping in touch with friends and family. 
 
-###How it works
+### How it works
 
 Run locally, the app is not set up to run on full time requirements. In other words, if a user wants to be reminded 'Daily' to call one of their contacts, the app will send a message about once every 20 seconds.
 
