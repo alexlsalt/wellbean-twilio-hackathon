@@ -56,11 +56,8 @@ wellbean will give you a ready-made starting point for generating your own stay-
 
 1. Clone this repository to your local machine and then cd into it
 
-`
-git clone https://github.com/alexlsalt/wellbean-twilio-hackathon.git
-cd wellbean-twilio-hackathon
-`
-
+`git clone https://github.com/alexlsalt/wellbean-twilio-hackathon.git`
+`cd wellbean-twilio-hackathon`
 
 2. Install dependencies 
 
