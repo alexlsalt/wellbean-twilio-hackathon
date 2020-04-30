@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title>wellbean</title>
+    <link rel="stylesheet" href="/assets/style.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+    <script src="/assets/index.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>wellbean</h1>
+    </header>
+    <div class="details contact-container">
+      <h2>Add New Contact Reminder:</h2>
+      <form type="text" id="new-contact-form">
+          <div>
+            <input type="text" id="newContact__input" class="input-field" placeholder="Contact name" required>
+          </div>
+          <div> 
+            <input list="frequency" name="frequency" placeholder="Alert frequency" required id="newFrequency__input" class="input-field">
+            <datalist id="frequency" label="Frequency">
+              <option value="Daily"></option>
+              <option value="Twice a Week"></option>
+              <option value="Weekly"></option>
+              <option value="Every Two Weeks"></option>
+              <option value="Monthly"></option>
+            </datalist>
+          </div>
+        
+        <div>
+          <input type="submit" id="newContact__submit" class="submit__btn">
+        </div>
+        
+      </form>
+
+      <h2>Current Contact Settings</h2>
+      <ul class="contact-list">
+        <% for (let i=0; i < contacts.length; i++) { %>
+
+          <li><span><%= contacts[i].name %></span><span><%= contacts[i].frequency %></span><div class='cross'>x</div></li>
+
+        <% } %>
+
+      </ul> 
+    </div>
+
+  </section>
+
+  <footer>
+    <h1>wellbean helps you stay in touch</h1>
+  </footer>
+  </body>
+
+</html>

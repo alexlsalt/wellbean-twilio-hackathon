@@ -1,0 +1,252 @@
+html {
+  font-size: 16px;
+}
+
+body{
+  font-family: 'Nunito Semibold';
+  text-align: center;
+}
+
+h1, h3 {
+  color: #b0c6b7;
+  font-family: 'Lilita One', cursive;
+}
+
+h1 { 
+  font-size: 4rem;   
+}
+
+h3 { 
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+
+#content {
+  max-width: 960px;
+  height: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 10px;
+  grid-template-areas: 
+  "header header header header header header"
+  "section section section section section section"
+  "section section section section section section"
+  "footer footer footer footer footer footer";
+} 
+
+@media screen and (min-width: 760px) {
+  #content {
+    max-width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 10px;
+    grid-template-areas: 
+    "header header header header header header"
+    "section section section section section section"
+    "section section section section section section"
+    "footer footer footer footer footer footer";
+  }  
+}
+
+
+
+#content > * {
+  /* background: aqua; */
+  padding: 30px;
+  text-align: center;
+  border: 1px solid gray;
+}
+
+header {
+  grid-area: header;
+  background-image: url('img/wellbean_back.png');
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(2rem, auto);
+  grid-template-areas: 
+    "heading heading heading heading"
+    "nav nav nav nav";
+}
+
+header h1 {
+  grid-area: heading;
+}
+
+header nav {
+  grid-area: nav;
+  padding-top: 2rem;
+}
+
+nav ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+nav li {
+  list-style: none;
+  font-family: 'Nunito Semibold', sans-serif;
+  padding: 0.25rem;
+  margin: 0.5rem;
+  border: 1px solid gray;
+  text-transform: uppercase;
+  color: gray;
+}
+
+nav li:hover {
+  cursor: pointer;
+  background: #b0c6b7;
+  color: #fff;
+}
+
+
+
+
+section {
+  grid-area: section;
+  /* background-image: url('wellbean_back.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background: #b0c6b7;
+  display: grid;
+  align-content: center;
+}
+
+section h2 {
+  width: 90%;
+  color: gray;
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0 auto;
+  font-family: 'Oswald', sans-serif;
+  border: 4px solid #fff;
+  padding: 1rem;
+}
+
+/* ******CONTACT LIST********* */
+
+
+.contact-container {
+  height: auto;
+  background: #fff;
+  padding: 2rem;
+}
+
+.contact-container form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media screen and (max-width: 680px) {
+  #new-contact-form {
+    flex-direction: column;
+  }
+
+}
+
+.contact-container form div {
+  padding: 0 0.5rem;
+}
+
+.contact-list {
+  text-align: left;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.contact-list li {
+  list-style: none;
+  font-family: 'Oswald';
+  color: gray;
+  font-size: 1.5rem;
+  box-shadow: 2px 2px lightgray;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+li div {
+  color: #eb4034;
+  transition: transform 0.5s ease;
+}
+
+li div:hover{
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+
+
+
+
+footer {
+  grid-area: footer;
+  background-image: url('img/wellbean_back.png');
+  background-size: cover;
+  background-position: bottom;
+}
+
+footer h1{
+  background-color: beige;
+}
+
+
+
+/* MODAL STYLES */
+
+input {
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.input-field {
+  height: 2rem;
+  font-size: 1.2rem;
+  text-align: center;
+  border-bottom: 5px solid #b0c6b7;
+}
+
+.input-field:focus {
+  background: #dfe8e2;
+}
+
+.submit__btn {
+  border: 3px solid #b0c6b7;
+  padding: 0.5rem;
+  width: 33%;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  background: #fff;
+}
+
+#newContact__submit {
+  width: auto;
+}
+
+.submit__btn:hover{
+  cursor: pointer;
+  background: #dfe8e2;
+}
+
+
+
+/* EXIT Button from modal */
+
+.x {
+  color: #eb4034;
+  transition: transform 0.5s ease;
+}
+
+.x:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
