@@ -56,18 +56,21 @@ wellbean will give you a ready-made starting point for generating your own stay-
 
 1. Clone this repository to your local machine and then cd into it
 
-> git clone https://github.com/alexlsalt/wellbean-twilio-hackathon.git
-> cd wellbean-twilio-hackathon
+`
+git clone https://github.com/alexlsalt/wellbean-twilio-hackathon.git
+cd wellbean-twilio-hackathon
+`
+
 
 2. Install dependencies 
 
-> npm install
+`npm install`
 
 3. Edit the .env file to include the necessary environment variables - your Twilio account ID, Twilio auth token, and the phone numbers to add into the app.
 
 4. Once your set up is complete, start the app by running 
 
-> node app
+`node app`
 
 5. Head to your local port 3000 (http://127.0.0.1:3000/) to view the app.
 
