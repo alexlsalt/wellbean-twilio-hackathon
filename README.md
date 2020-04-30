@@ -1,4 +1,4 @@
-!(public/assets/img/wellbean_favicon.png)
+![Wellbean bean](public/assets/img/wellbean_favicon.png)
 
 # Wellbean App x Twilio Hackathon 
 
