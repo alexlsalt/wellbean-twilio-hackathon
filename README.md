@@ -79,7 +79,7 @@ wellbean will give you a ready-made starting point for generating your own stay-
 
 5. Head to your local port 3000 (http://127.0.0.1:3000/) to view the app.
 
-6. Once you've submitted **three** contacts, you will start receiving simulated Whatsapp reminders.
+6. Once you've submitted **three** contacts, wait about 20 seconds, and you will start receiving your simulated Whatsapp reminders. (Your reminders will also be logged into your terminal while the program is running.)
 
 7. **Important:** To close out of the app and end the message queue and sending, you must end the node process within your terminal (**Ctrl** + **C**)
 
