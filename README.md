@@ -43,19 +43,43 @@ wellbean will give you a ready-made starting point for generating your own stay-
 
 | Config value  | Description  |
 |---|---|
-| Account sid  | Your primary Twilio account identifier - find this in the Console.  |
-| Auth token  | Used to authenticate - just like the above, you'll find this here.  |
-| Your Whatsapp number  | A Twilio phone number in E.164 format - you can get one here  |
-| The Twilio whatsapp number  | You will have this once you set up your Whatsapp Sandbox within Twilio  |
+| Account sid  | Your primary Twilio account identifier - find this in [the console](https://github.com/alexlsalt/wellbean-twilio-hackathon/blob/master/LICENSE).  |
+| Auth token  | Used to authenticate - just like the above, you'll find this [here](https://www.twilio.com/console).  |
+| Your Whatsapp number  | You'll need to add your Whatsapp account phone number in [E.164 format](https://en.wikipedia.org/wiki/E.164). |
+| The Twilio whatsapp number  | You will have this once you set up your [Whatsapp Sandbox](https://www.twilio.com/console/sms/whatsapp/sandbox) within Twilio.  |
+
+**Note:** To run the app locally and receive Whatsapp alerts, you'll need to authorize the Whatsapp sandbox to send alerts to your Whatsapp number. To authorize testing, head to your [Whatsapp Sandbox](https://www.twilio.com/console/sms/whatsapp/sandbox) for instructions on how to set up your testing sandbox.
+
+
 
 ### Local development
 
 1. Clone this repository to your local machine and then cd into it
 
-> git clone git@github.com:twilio-labs/sample-template-nodejs.git
-> cd sample-template-nodejs
+> git clone https://github.com/alexlsalt/wellbean-twilio-hackathon.git
+> cd wellbean-twilio-hackathon
+
+2. Install dependencies 
+
+> npm install
+
+3. Edit the .env file to include the necessary environment variables - your Twilio account ID, Twilio auth token, and the phone numbers to add into the app.
+
+4. Once your set up is complete, start the app by running 
+
+> node app
+
+5. Head to your local port 3000 (http://127.0.0.1:3000/) to view the app.
+
+6. Once you've submitted **three** contacts, you will start receiving simulated Whatsapp reminders.
+
+7. **Important:** To close out of the app and end the message queue and sending, you must end the node process within your terminal (**Ctrl** + **C**)
 
 
 ### Licenses
 
+[MIT](https://github.com/alexlsalt/wellbean-twilio-hackathon/blob/master/LICENSE)
+
 ### Disclaimier
+
+No warranty expressed or implied. Software is as is.
