@@ -1,4 +1,6 @@
-# wellbean-twilio-hackathon 
+# Wellbean App x Twilio Hackathon 
+
+Created and developed by Alex Morton
 
 Welcome! wellbean is my submission for the April 2020 Twilio hackathon. It's an app that generates automatic Whatsapp reminders for users to stay in touch with loved ones. Enjoy!
 
@@ -24,17 +26,35 @@ Below is the timetable for when users would receive Twilio messages via Whatsapp
 
 ## Features
 
-
-## How to use it
-
+- Node.js web server using Express.js
+- User interface to set up contact reminders
+- Project specific environment variables using .env files
 
 ## Set up
 
 ### Requirements
 
+- Node.js
+- A Twilio trial account - sign up
+
 ### Twilio account settings
 
+wellbean will give you a ready-made starting point for generating your own stay-in-touch reminders. Before we begin, we need to collect all the config values we need to run the application:
+
+| Config value  | Description  |
+|---|---|
+| Account sid  | Your primary Twilio account identifier - find this in the Console.  |
+| Auth token  | Used to authenticate - just like the above, you'll find this here.  |
+| Your Whatsapp number  | A Twilio phone number in E.164 format - you can get one here  |
+| The Twilio whatsapp number  | You will have this once you set up your Whatsapp Sandbox within Twilio  |
+
 ### Local development
+
+1. Clone this repository to your local machine and then cd into it
+
+> git clone git@github.com:twilio-labs/sample-template-nodejs.git
+> cd sample-template-nodejs
+
 
 ### Licenses
 
