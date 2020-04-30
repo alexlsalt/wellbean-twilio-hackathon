@@ -34,8 +34,8 @@ Below is the timetable for when users would receive Twilio messages via Whatsapp
 
 ### Requirements
 
-- Node.js
-- A Twilio trial account - sign up
+- [Node.js](https://nodejs.org/)
+- A Twilio trial account - [sign up](https://www.twilio.com/try-twilio)
 
 ### Twilio account settings
 
