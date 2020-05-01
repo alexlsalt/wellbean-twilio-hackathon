@@ -64,10 +64,6 @@ module.exports = function(app) {
         }, 1000);
         
       })
-
-      if (time >= 10) {
-        clearInterval(timer);
-      }
     }
   });
 
