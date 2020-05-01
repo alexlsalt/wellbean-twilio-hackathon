@@ -41,10 +41,10 @@ module.exports = function(app) {
 
         let timer = setInterval(() => {
           time += 1;
-          if (time >= 0 && time % 20 === 0 && contact.frequency === 'Daily') {
+          if (time >= 20 && time % 20 === 0 && contact.frequency === 'Daily') {
             contactReminderMessage(contact);
 
-          } else if (time >= 40 && time % 20 === 0 && contact.frequency === 'Twice a Week') {
+          } else if (time >= 40 && time % 40 === 0 && contact.frequency === 'Twice a Week') {
 
             contactReminderMessage(contact);
 
