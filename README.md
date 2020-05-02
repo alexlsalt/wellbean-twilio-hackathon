@@ -16,6 +16,8 @@ I found that just a simple message reminder would help so much in keeping in tou
 
 Run locally, the app is not set up to run on full time requirements. In other words, if a user wants to be reminded 'Daily' to call one of their contacts, the app will send a message about once every 20 seconds.
 
+(View live demo here)[https://www.loom.com/share/36e0660de36f42f2aedb9623bab1876b]
+
 Below is the timetable for when users would receive Twilio messages via Whatsapp based on their contact frequency settings: 
 
 | Frequency chosen  | Actual time elapsed between message sends  |
